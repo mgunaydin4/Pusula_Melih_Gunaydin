@@ -1,4 +1,5 @@
 # Bulgular Ve Analiz Hakkında Bilgi
+# Melih Gunaydin - mgunaydin8@gmail.com
 
 **Sayısal Değişkenlerin Betimsel İstatistikleri**
 - **Kilo**
