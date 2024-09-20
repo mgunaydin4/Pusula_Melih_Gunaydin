@@ -351,13 +351,13 @@ def visualize_data(df, chart_type):
 
         'Cinsiyet': lambda: plot_pie_chart(df['Cinsiyet'].value_counts().values,
                                            df['Cinsiyet'].value_counts().index,
-                                           'Cinsiyet Dağılımı  )'),
+                                           'Cinsiyet Dağılımı'),
 
-        'Yaş': lambda: plot_histogram(df['Yaş'], 'Yaş Dağılımı  )'),
+        'Yaş': lambda: plot_histogram(df['Yaş'], 'Yaş Dağılımı'),
 
         'İl': lambda: plot_pie_chart(df['Il'].value_counts().values,
                                      df['Il'].value_counts().index,
-                                     'İl Dağılımı  )'),
+                                     'İl Dağılımı'),
 
         'İlaç': lambda: plot_bar_chart(df['Ilac_Adi'].value_counts().index,
                                        df['Ilac_Adi'].value_counts().values,
@@ -367,7 +367,7 @@ def visualize_data(df, chart_type):
 
         'Yan Etki': lambda: plot_pie_chart(df['Yan_Etki'].value_counts().values,
                                            df['Yan_Etki'].value_counts().index,
-                                           'Yan Etki Dağılımı  )'),
+                                           'Yan Etki Dağılımı'),
 
         'Kronik Hastalık': lambda: plot_bar_chart(df['Kronik Hastaliklarim'].value_counts().index,
                                                  df['Kronik Hastaliklarim'].value_counts().values,
@@ -385,9 +385,9 @@ def visualize_data(df, chart_type):
             columns=['Hastalik', 'Frekans']).sort_values('Frekans', ascending=False)['Hastalik'].values,
             'Kronik Hastalıkların Dağılımı'),
 
-        'Kilo': lambda: plot_histogram(df['Kilo'], 'Kilo Dağılımı  )'),
+        'Kilo': lambda: plot_histogram(df['Kilo'], 'Kilo Dağılımı'),
 
-        'Boy': lambda: plot_histogram(df['Boy'], 'Boy Dağılımı  )'),
+        'Boy': lambda: plot_histogram(df['Boy'], 'Boy Dağılımı'),
 
         'Alerji': lambda: plot_pie_chart(df['Alerjilerim'].value_counts().values,
                                          df['Alerjilerim'].value_counts().index,
