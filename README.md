@@ -2,7 +2,7 @@
 
 Kod Pycharm IDE'sinde yazılmıştır. İlk önce kütüphaneler import edilmiş olup, daha sonrasında ise veri seti yüklenmiştir. (Kütüphanelerin importunda bir problem çıkması halinde "pip" komutunu kullanarak kütüphaneyi projeye dahil etmelisiniz)
 
-**Bu Case Pipeline Level Code Olarak da yazılmıştır. Pusula_Melih_Gunaydin_Pipline_code dosyasında bu case in Pipeline Level Code hali yazılmıştırç**
+## **Bu Case Pipeline Level Code Olarak da yazılmıştır. Pusula_Melih_Gunaydin_Pipline_code dosyasında bu case in Pipeline Level Code hali yazılmıştır.**
 
 "summarize_dataframe" fonksiyonu veri setindeki;
 
